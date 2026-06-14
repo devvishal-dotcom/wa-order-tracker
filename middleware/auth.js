@@ -4,9 +4,9 @@ const bcrypt = require('bcryptjs');
 const JWT_SECRET = process.env.JWT_SECRET || 'change_this_secret_in_env';
 
 const USERS = [
-  { id: 1, username: 'admin', password: '$2b$10$iDwE1813K75ekhVWOTZim.MBfyt7GwbtLwTfUcaL5vgRwaCApoTRO', role: 'admin' },
-  { id: 2, username: 'operator', password: '$2b$10$6.SMdpuR44NwA4vySvWB0O6vKxkEwktBRJi.7b06o4NEVeqaJfQfi', role: 'operator' },
-  { id: 3, username: 'viewer', password: '$2b$10$JIu3WRV5cFRpEXVk3rMGAuJhmVHLE6ExPgKlQlbha8RIKY1dtncRG', role: 'viewer' }
+  { id: 1, username: 'admin', password: '$2b$10$MzkHAZsyOTkHvld9RSEwgOhumIbhBUdL.KMLPzRTP8Vd7v/tx9DGy', role: 'admin' },
+  { id: 2, username: 'operator', password: '$2b$10$Nd.Xngaj4rIgaShFOaWISe5TsIANGPKNotQ/NQMbd30222T3eZXI2', role: 'operator' },
+  { id: 3, username: 'viewer', password: '$2b$10$SJxiP5yiI8sdfl4Y.ld1seIyYGvIj0r9mOpwQCe7oTXmqv8.nwB9e', role: 'viewer' }
 ];
 
 const PERMISSIONS = {
